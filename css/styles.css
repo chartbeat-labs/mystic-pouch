@@ -1,0 +1,29 @@
+#pouch-close {
+	position: fixed;
+	bottom: 10px;
+	right: 0px;
+	background-color: white;
+	box-shadow: 0 0 0 2px rgba(0,0,0,.04),0 2px 2px 0 rgba(0,0,0,.25);
+	margin: 10px;
+	padding: 15px;
+	z-index: 9999999999;
+}
+
+#pouch-top {
+	display: -webkit-flex;
+	display: flex;
+	padding-bottom: 12px;
+}
+
+#pouch-title {
+	padding-right: 40px;
+}
+
+#pouch-close-me {
+	margin-left: auto;
+	cursor: pointer;
+}
+
+.pouch-flex-item {
+	width: auto;
+}
