@@ -16,7 +16,7 @@
 
 /* Pouch constructor. Creates Pouch w specified attributes.
 accepts: div ID to replace w styled pouch contents, JSON elements, title to display above the list
-returns:
+returns: built pouch container
 */
 class Pouch {
   constructor(selector, elements, pouch_title) {
